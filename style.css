@@ -1,0 +1,200 @@
+html, body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  font-family: "Roboto", "sans-serif";
+}
+
+@media only screen and (min-width: 640px) {
+  body {
+    width: 375px;
+    margin: 0 auto;
+    background: #FFF;
+  }
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ GENERAL //////////////////////////// */
+.title-section {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ HEADER //////////////////////////// */
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+#logo img {
+  width: auto;
+  height: 25px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ SEARCH //////////////////////////// */
+#search {
+  height: auto;
+}
+#search #location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #eaeaea;
+}
+#search #location i {
+  padding: 0 10px 0 0;
+}
+#search #explorer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+#search #explorer #explorerTitle {
+  font-weight: bold;
+  font-size: 24px;
+  width: 250px;
+}
+#search #explorer p {
+  width: 300px;
+}
+#search #explorer .btn {
+  display: inline-block;
+  font-weight: bold;
+  width: 50%;
+  height: 40px;
+  line-height: 1.5;
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: #FFF;
+  padding: 6px 12px 6px 20px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FEATURES //////////////////////////// */
+#features #btn-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#features #btn-features .number {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  background-color: #9356DC;
+  color: #FFF;
+  border-radius: 20px;
+  margin: 8px 0 0 -10px;
+}
+#features #btn-features .btn {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5;
+  background-color: #f6f6f6;
+  padding: 6px 12px 6px 20px;
+  box-shadow: 0px 3px 15px black;
+}
+#features #btn-features .btn:hover {
+  background-color: #f5edff;
+}
+#features #btn-features .btn:hover i {
+  color: #9356DC;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ RESTAURANTS //////////////////////////// */
+#restaurants {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+#restaurants #thumb-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+}
+#restaurants #thumb-contain .thumb {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0px 1px 10px black;
+}
+#restaurants #thumb-contain .thumb .img-container {
+  position: relative;
+}
+#restaurants #thumb-contain .thumb .img-container img {
+  width: 100%;
+  height: 180px;
+  object-position: 50% 62%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+#restaurants #thumb-contain .thumb .img-container .new {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  background-color: #99E2D0;
+  color: #30816d;
+  font-weight: bold;
+}
+#restaurants #thumb-contain .thumb .thumb-desc {
+  position: relative;
+  height: 60px;
+}
+#restaurants #thumb-contain .thumb .thumb-desc .text {
+  padding: 10px;
+}
+#restaurants #thumb-contain .thumb .thumb-desc .text .name {
+  font-weight: bold;
+}
+#restaurants #thumb-contain .thumb .thumb-desc .icons i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#restaurants #thumb-contain .thumb .thumb-desc .icons:hover .fas {
+  display: block;
+}
+#restaurants #thumb-contain .thumb .thumb-desc .fas {
+  display: none;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FOOTER //////////////////////////// */
+footer {
+  background-color: #353535;
+  color: #FFF;
+}
+footer .sub-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
