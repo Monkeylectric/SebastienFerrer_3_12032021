@@ -71,6 +71,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 10;
+  top: 0;
   width: 375px;
   height: 100vh;
   background: linear-gradient(#9356DC, #FF79DA);
