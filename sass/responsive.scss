@@ -1,0 +1,291 @@
+@media only screen and (max-width: 640px) {
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ GENERAL //////////////////////////// */
+    .title-section{
+        font-weight: bold;
+        font-size: 24px;
+        padding: 0 0 25px 20px;
+    }
+    
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ SEARCH //////////////////////////// */
+    #search{
+        #explorer{
+            #explorerTitle{
+                width: 250px;
+            }
+            .btn {
+                width: 50%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FEATURES //////////////////////////// */
+    #features{
+        #btn-features{
+            flex-direction: column;
+            align-items: center;
+            row-gap: 15px;
+
+            .btn-container{
+                width: 90%;
+            }
+            
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ RESTAURANTS //////////////////////////// */
+    #restaurants{
+        #thumb-contain{
+            flex-direction: column;
+            align-items: center;
+            row-gap: 25px;
+
+            .thumb{
+                width: 90%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FOOTER //////////////////////////// */
+    footer{
+        .footer-container{
+            padding: 20px 0 0 20px;
+        }
+        .sub-item{
+            flex-direction: column;
+            row-gap: 5px;
+            i{
+                padding: 0 5px 0 0;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ MENUS //////////////////////////// */
+    .menu{
+        .menu-container{
+            .card-container{
+                flex-direction: column;
+                align-items: center;
+                row-gap: 10px;
+
+                .card{
+                    width: 90%;
+
+                    /*&:hover {
+                        .card-text{
+                           //width: 67%;
+                           //width: calc(100% - 100px);
+                        }
+                    }
+
+                    .card-text{
+                        //width: 85%;
+                        //padding: 10px 0 10px 10px;
+
+                    }
+                    .card-price{
+                        //padding: 30px 25px 0 0;
+                    }*/
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 641px){
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ GENERAL //////////////////////////// */
+    .title-section{
+        font-weight: bold;
+        font-size: 24px;
+        padding: 0 0 25px 4%;
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ SEARCH //////////////////////////// */
+    #search{
+        #explorer{
+            #explorerTitle{
+                width: auto;
+            }
+            .btn {
+                width: 30%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FEATURES //////////////////////////// */
+    #features{
+        #btn-features{
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+
+            .btn-container{
+                width: 45%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ RESTAURANTS //////////////////////////// */
+    #restaurants{
+        #thumb-contain{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+
+            .thumb{
+                width: 45%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FOOTER //////////////////////////// */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #footer-logo{
+            text-align: center;
+        }
+        
+        .sub-item{
+            flex-direction: row;
+            gap: 15px;
+
+            i{
+                padding: 0 5px 0 0;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ MENUS //////////////////////////// */
+    .menu{
+        .menu-container{
+            .card-container{
+                flex-direction: row;
+                justify-content: center;
+                gap: 10px;
+                flex-wrap: wrap;
+
+                .card{
+                    width: 45%;
+
+                    /*&:hover {
+                        .card-text{
+                            //width: 76%;
+                        }
+                    }
+
+                    .card-text{
+                        //padding: 10px 20px 0 10px;
+
+                    }
+                    .card-price{
+                        //padding: 30px 0 0 0;
+                    }*/
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 900px){
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ GENERAL //////////////////////////// */
+    .title-section{
+        font-weight: bold;
+        font-size: 24px;
+        padding: 0 0 25px 4%;
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ SEARCH //////////////////////////// */
+    #search{
+        #explorer{
+            #explorerTitle{
+                width: auto;
+            }
+            .btn {
+                width: 20%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FEATURES //////////////////////////// */
+    #features{
+        #btn-features{
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+
+            .btn-container{
+                width: 30%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ RESTAURANTS //////////////////////////// */
+    #restaurants{
+        #thumb-contain{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+
+            .thumb{
+                width: 30%;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FOOTER //////////////////////////// */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #footer-logo{
+            text-align: center;
+        }
+        
+        .sub-item{
+            flex-direction: row;
+            gap: 15px;
+
+            i{
+                padding: 0 5px 0 0;
+            }
+        }
+    }
+
+    /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ MENUS //////////////////////////// */
+    .menu{
+        .menu-container{
+            .card-container{
+                flex-direction: row;
+                justify-content: center;
+                gap: 10px;
+                flex-wrap: wrap;
+
+                .card{
+                    width: 30%;
+
+                    /*&:hover {
+                        .card-text{
+                            //width: 76%;
+                        }
+                    }
+
+                    .card-text{
+                        //padding: 10px 20px 0 10px;
+
+                    }
+                    .card-price{
+                        //padding: 30px 0 0 0;
+                    }*/
+                }
+            }
+        }
+    }
+}
