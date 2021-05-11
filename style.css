@@ -411,66 +411,70 @@ main {
   background-color: #f6f6f6;
 }
 
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ LOADER //////////////////////////// 
-.load{
-    animation: scrollHideen $loaderDelay;
-}
-.loaderSection{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient($primary, $secondary);
-    animation: fadeOut .5s;
-    animation-delay: $loaderDelay;
-    animation-fill-mode: forwards;
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ LOADER //////////////////////////// */
+.load {
+  animation: scrollHideen 1.5s;
 }
 
-.loader{
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
+.loaderSection {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#9356DC, #FF79DA);
+  animation: fadeOut 0.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }
-.loaderQuart{
-    border-radius: 50px;
-    border: 6px solid rgba(255, 255, 255, 0.4);
+
+.loader {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
 }
-.loaderQuart:after{
-    content: '';
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    bottom: -6px;
-    right: -6px;
-    border-radius: 50px;
-    border: 6px solid transparent;
-    border-top-color: #FFF;
-    animation: spin 1s linear infinite;
+
+.loaderQuart {
+  border-radius: 50px;
+  border: 6px solid rgba(255, 255, 255, 0.4);
 }
-@keyframes scrollHideen{
-    from {
-        overflow-y: hidden;
-    }
-    to {
-        overflow-y: hidden;
-    }
+
+.loaderQuart:after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  bottom: -6px;
+  right: -6px;
+  border-radius: 50px;
+  border: 6px solid transparent;
+  border-top-color: #FFF;
+  animation: spin 1s linear infinite;
 }
-@keyframes fadeOut{
-    99%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 0;
-        display: none;
-        z-index: -1;
-    }
-}*/
+
+@keyframes scrollHideen {
+  from {
+    overflow-y: hidden;
+  }
+  to {
+    overflow-y: hidden;
+  }
+}
+@keyframes fadeOut {
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ HEADER //////////////////////////// */
 #logo {
   display: flex;
