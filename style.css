@@ -495,6 +495,10 @@ main {
   color: #FFF;
   padding: 6px 12px 6px 20px;
 }
+#search #explorer .btn:hover {
+  filter: brightness(1.1);
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+}
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\ FEATURES //////////////////////////// */
 #features {
